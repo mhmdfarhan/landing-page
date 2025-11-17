@@ -26,13 +26,13 @@ function App() {
   ];
 
   const imageLogos = [
-    { src: "/public/img/BLP2.png", alt: "Company 1", href: "#" },
-    { src: "/public/img/Graphic1.png", alt: "Company 1", href: "#" },
-    { src: "/public/img/HK4.png", alt: "Company 1", href: "#" },
-    { src: "/public/img/mhi4.png", alt: "Company 1", href: "#" },
-    { src: "/public/img/ppp3.png", alt: "Company 1", href: "#" },
-    { src: "/public/img/raka.png", alt: "Company 1", href: "#" },
-    { src: "/public/img/sasmito2.png", alt: "Company 1", href: "#" },
+    { src: "/img/BLP2.png", alt: "Company 1", href: "#" },
+    { src: "/img/Graphic1.png", alt: "Company 1", href: "#" },
+    { src: "/img/HK4.png", alt: "Company 1", href: "#" },
+    { src: "/img/mhi4.png", alt: "Company 1", href: "#" },
+    { src: "/img/ppp3.png", alt: "Company 1", href: "#" },
+    { src: "/img/raka.png", alt: "Company 1", href: "#" },
+    { src: "/img/sasmito2.png", alt: "Company 1", href: "#" },
   ];
 
   // console.log jika ada scroll down atau up
@@ -186,7 +186,7 @@ function App() {
         </div>
         <div className="flex-1 flex justify-center items-center">
           <ModelViewer
-            url="/public/img/wooden_floor_panels.glb"
+            url="/img/wooden_floor_panels.glb"
             width={400}
             height={400}
             defaultRotationY={45}
